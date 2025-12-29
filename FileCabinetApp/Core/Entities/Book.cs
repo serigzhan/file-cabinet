@@ -9,7 +9,7 @@
 
         public string Publisher { get; set; }
 
-        public string NumberOfPages { get; set; }
+        public int NumberOfPages { get; set; }
 
         public DateTime DatePublished { get; set; }
 
