@@ -49,6 +49,10 @@ namespace FileCabinetApp.Infrastructures.Repositories
                 {
                     result = JsonSerializer.Deserialize<LocalizedBook>(json, _options);
                 }
+                else if (typePrefix == "magazine")
+                {
+                    result = JsonSerializer.Deserialize<Magazine>(json, _options);
+                }
 
                 if (result != null)
                 {
