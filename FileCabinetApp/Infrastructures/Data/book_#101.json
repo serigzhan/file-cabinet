@@ -1,0 +1,13 @@
+﻿{
+  "id": "101",
+  "type": "book",
+  "title": "The Pragmatic Programmer",
+  "isbn": "978-0201616224",
+  "authors": [
+    "Andrew Hunt",
+    "David Thomas"
+  ],
+  "numberOfPages": 352,
+  "publisher": "Addison-Wesley",
+  "datePublished": "1999-10-30T00:00:00"
+}

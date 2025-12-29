@@ -1,0 +1,14 @@
+﻿{
+  "id": "303",
+  "type": "localizedbook",
+  "title": "Harry Potter and the Sorcerer's Stone (French Edition)",
+  "isbn": "978-2070541270",
+  "authors": [
+    "J.K. Rowling"
+  ],
+  "numberOfPages": 308,
+  "publisher": "Bloomsbury",
+  "countryOfLocalization": "France",
+  "localPublisher": "Gallimard Jeunesse",
+  "datePublished": "2000-11-01T00:00:00"
+}

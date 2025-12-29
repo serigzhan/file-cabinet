@@ -1,0 +1,12 @@
+﻿{
+  "id": "302",
+  "type": "localizedbook",
+  "title": "The Lord of the Rings (Japanese)",
+  "isbn": "978-4566023505",
+  "authors": [ "J.R.R. Tolkien" ],
+  "numberOfPages": 600,
+  "originalPublisher": "Allen & Unwin",
+  "countryOfLocalization": "Japan",
+  "localPublisher": "Hyoronsha",
+  "datePublished": "1992-04-15T00:00:00"
+}

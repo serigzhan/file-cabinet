@@ -1,0 +1,10 @@
+﻿{
+  "id": "103",
+  "type": "book",
+  "title": "C# in Depth",
+  "isbn": "978-1617294532",
+  "authors": [ "Jon Skeet" ],
+  "numberOfPages": 528,
+  "publisher": "Manning Publications",
+  "datePublished": "2019-03-23T00:00:00"
+}
