@@ -10,7 +10,7 @@
         public LocalizedBook()
         {
 
-            Type = "localized-book";
+            Type = "localizedbook";
 
         }
 
