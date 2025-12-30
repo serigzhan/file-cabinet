@@ -4,8 +4,23 @@ using FileCabinetApp.UI;
 
 IDocumentRepository fileDocumentRepository = new FileDocumentRepository();
 
-var consoleScreen = new SearchScreen(fileDocumentRepository);
+IDocumentRepository repository = new CachedDocumentRepository(fileDocumentRepository);
 
-consoleScreen.Search();
+var consoleScreen = new SearchScreen(repository);
 
-Console.ReadLine();
+while (true)
+{
+    
+    consoleScreen.Search();
+
+    Console.WriteLine();
+    Console.Write("Want to continue? [y/n] ");
+
+    var answer = Console.ReadLine();
+
+    if (answer.ToLower() != "y")
+    {
+        break;
+    }
+
+}
